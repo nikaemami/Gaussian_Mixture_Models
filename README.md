@@ -25,7 +25,11 @@ cov of class 1: [[0.5221430428454983, -0.003104636497334427], [-0.00310463649733
 
 I implement my **prediction function** using the above algorithm.
 
-By plotting points of each class it is seen that the results are not much acceptable. So the second step is implementing a GMM model.
+By plotting points of each class it is seen that the results are not much acceptable.
+
+![My Image](images/1.png)
+
+So the second step is implementing a GMM model.
 
 First, I define the GMM class (by using multivariate_normal) in which I define the functions for **E step** and **M step**, and finally fit the data. Then, I define a **jitter function** to plot the new points.
 
